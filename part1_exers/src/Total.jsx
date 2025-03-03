@@ -1,7 +1,7 @@
-const Total = ( {exercises1, exercises2, exercises3} ) => {
+const Total = ( { exercises } ) => {
 	return (
 		<>
-			<p>Number of exercises {exercises1 + exercises2 + exercises3}</p>
+			<p>Number of exercises {exercises}</p>
 		</>
 	)
 }
